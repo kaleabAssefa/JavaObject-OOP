@@ -32,4 +32,4 @@ public class Student{
 
         // Calling the method
         myCar.displayCarInfo();
-}
+}}
