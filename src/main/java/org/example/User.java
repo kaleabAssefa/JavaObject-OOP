@@ -10,4 +10,13 @@ public class User {
         this.email="Not Provided";
         this.age = 0;
     }
+    User(String userName,String email){
+        this.userName = userName;
+        this.email= email;
+    }
+    User(String userName,String email,int age){
+        this.userName = userName;
+        this.email= email;
+        this.age = 25;
+    }
 }
