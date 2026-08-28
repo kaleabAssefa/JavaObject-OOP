@@ -7,6 +7,9 @@ public class Main {
        Car car1 = new Car("Toyota","Grey");
        Car car2 = new Car("Honda","Blue");
         Car car3 = new Car("Kia","Black");
+        Student student = new Student("KG");
+        Student student2 = new Student("Abebe");
+        System.out.println(student.numOfFriends);
        Car [] cars = {car1,car2,car3};
        for(int i =0;i< cars.length;i++){
            cars[i].drive();
